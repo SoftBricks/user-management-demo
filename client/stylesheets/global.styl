@@ -1,0 +1,38 @@
+*
+	-webkit-font-smoothing antialiased
+
+media="screen, projection"
+header, main, footer 
+	margin-left 240px
+	.navbar-fixed
+		z-index 996
+		> nav
+			left 240px
+			right 0
+			width auto
+
+@media only screen and (max-width 992px)
+	header, main, footer 
+		margin-left 0;
+		.navbar-fixed > nav
+			left 0
+
+media="screen, projection"
+ul.side-nav.fixed li.menu-item
+	line-height 44px
+
+ul.side-nav li.logo
+	padding 0
+	a
+		color white
+	
+ul.collection
+	border 0
+	
+li.collection-item.header-item
+	border 0
+	
+ul.collection a.collection-item
+	color rgba(0, 0, 0, 0.87)
+	&hover
+		background #fff !important
